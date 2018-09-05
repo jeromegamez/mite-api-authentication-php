@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/6.0/phpunit.xsd"
+    colors="true">
+    <testsuites>
+        <testsuite name="Test Suite">
+            <file>tests/MiteRequestAuthenticatorTest.php</file>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <file>src/MiteRequestAuthenticator.php</file>
+        </whitelist>
+    </filter>
+</phpunit>
