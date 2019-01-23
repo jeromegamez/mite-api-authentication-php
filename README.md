@@ -2,6 +2,8 @@
 
 Authentication middlewares to support access to the [mite](https://mite.yo.lk) API
 
+**This package is no longer maintained. Use https://github.com/jeromegamez/mite-php instead**
+
 ## Installation
 
 ```bash
